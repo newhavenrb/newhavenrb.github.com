@@ -1,0 +1,55 @@
+body {
+    background-color: #eee;
+    font-family: Sans-serif;
+    color: #210000;
+    font-size: 1.3em;
+}
+
+#page {
+ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 50em;
+}
+
+#page #header {
+   background: transparent url('../images/nh_skyline.png') no-repeat top center;
+   width: 960px;
+   height: 327px;
+   color: #eee;
+   text-align: right;
+}
+
+#page #content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #cc0000;
+    border-bottom: 1px dashed #cc0000;
+}
+
+h1 {
+    color: #cc0000;
+}
+
+h1:hover {
+    color: #210000;
+}
+
+#footer {
+    font-size: 0.5em;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
