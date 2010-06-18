@@ -6,8 +6,12 @@ body {
     padding-bottom: 1.5em;
 }
 
+.clear {
+    clear: both;
+}
+
 #page {
- 
+
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -66,5 +70,21 @@ h1:hover {
 
 #navblock a{
     margin-left: 1em;
+    margin-right: 1em;
+}
+
+div.person {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+div.person div.photo a {
+    border: none;
+}
+
+div.person div.photo {
+    float: left;
+    width: 150px;
+    height: 150px;
     margin-right: 1em;
 }
