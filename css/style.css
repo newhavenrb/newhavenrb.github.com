@@ -54,3 +54,17 @@ h1:hover {
     margin-right: auto;
     margin-left: auto;
 }
+
+#navblock {
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    width: 60%;
+    text-align: center;
+}
+
+#navblock a{
+    margin-left: 1em;
+    margin-right: 1em;
+}
