@@ -3,6 +3,7 @@ body {
     font-family: Sans-serif;
     color: #210000;
     font-size: 1.3em;
+    padding-bottom: 1.5em;
 }
 
 #page {
@@ -30,7 +31,7 @@ body {
 a {
     text-decoration: none;
     color: #cc0000;
-    border-bottom: 1px dashed #cc0000;;
+    border-bottom: 1px dashed #cc0000;
 }
 
 a:hover {
