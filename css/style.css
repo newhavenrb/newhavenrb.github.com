@@ -39,10 +39,44 @@ a {
 a:hover {
   text-decoration: none;
   color: #cc0000;
-  border-bottom: 1px solid #cc0000;
+  border-bottom: 2px solid #cc0000;
 }
 
 h1 {
   color: #cc0000;
   font-variant: small-caps;
+}
+
+.event{
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid silver;
+}
+
+.last{
+  padding-bottom: 5px;
+  border-bottom: 1px solid silver;
+}
+
+.event .date{
+  font-weight:bold;
+  font-variant: small-caps;
+  display: inline-block;
+  width: 275px;
+}
+
+.event a{
+  border-bottom: none;
+}
+
+.event a:hover{
+  border-bottom: 2px solid;
+}
+
+li{
+  margin-bottom: 5px;
+}
+
+.right{
+  float:right;
 }
