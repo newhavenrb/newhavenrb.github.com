@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
   width: 960px;
   min-height: 20em;
+  text-align: justify;
   
   -moz-border-radius-bottomleft: 10px;
   -moz-border-radius-bottomright: 10px;
