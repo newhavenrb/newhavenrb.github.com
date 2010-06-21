@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>New Haven Rubyists</title>
-    <link rel="stylesheet" media="screen" href="css/style.css"/>
+    <link rel="stylesheet" media="all" href="css/style.css"/>
     <script src="js/jquery-1.4.2.min.js"></script>
     <script src="js/sitecode.js"></script>
   </head>
@@ -10,66 +10,117 @@
     <div id="page">
       <div id="header"></div>
 
+      <div id="navblock">
+	<a href="#history">History</a>
+	<a href="#people">People</a>
+	<a href="#projects">Projects</a>
+	<a href="#footer">Credits</a>
+      </div>
+
       <div id="content">
-  <p>
-    We, <span class="highlight">newhaven.rb</span>, are a group of
-    people living in and around New Haven, CT brought together
-    by shared interest in
-    the <a href="http://ruby-lang.org">Ruby Programming
-    Language</a>. We come from all different professions and
-    occupations to share our knowledge of Ruby and learn from
-    one another. If you're interested in joining us to learn
-    about Ruby or just hang out with fellow enthusiasts, follow
-    us on
-    Twitter <a href="http://twitter.com/newhavenrb">@newhavenrb</a>
-    or join our discussion list to get in touch.
-  </p>
+	<div id="about">
+	  <p>
+	    We, <span class="highlight">newhaven.rb</span>, are a group of
+	    people living in and around New Haven, CT brought together
+	    by shared interest in
+	    the <a href="http://ruby-lang.org">Ruby Programming
+	      Language</a>. We come from all different professions and
+	    occupations to share our knowledge of Ruby and learn from
+	    one another. If you're interested in joining us to learn
+	    about Ruby or just hang out with fellow enthusiasts, follow
+	    us on
+	    Twitter <a href="http://twitter.com/newhavenrb">@newhavenrb</a>
+	    or join our discussion list to get in touch.
+	  </p>
+	</div>
 
-  <h1>History</h1>
-  <p>
-    The first incarnation of Ruby New Haven manifested in 2008
-    at a time when appreciation for Ruby was just reaching the
-    community community at large. Over a period of two years,
-    the group noticed that the New Haven computing community
-    wasn't getting to love Ruby as fast as they should
-    have. Luckily, an influx of Ruby fans led to the
-    re-establishment of the group in summer of 2010.
-  </p>
+	<div id="history">
+	  <h1>History</h1>
+	  <p>
+	    The first incarnation of Ruby New Haven manifested in 2008
+	    at a time when appreciation for Ruby was just reaching the
+	    community community at large. Over a period of two years,
+	    the group noticed that the New Haven computing community
+	    wasn't getting to love Ruby as fast as they should
+	    have. Luckily, an influx of Ruby fans led to the
+	    re-establishment of the group in summer of 2010.
+	  </p>
+	</div>
 
-  <h1>Who?</h1>
+	<div id="people">
+	  <h1>People</h1>
 
-  <h1>Get involved!</h1>
+	  <div class="person">
+	    <div class="photo">
+	      <a href="http://yonkeltron.com">
+		<img alt="yonkeltron" title="I came to party" src="images/headshots/yonkeltron.png"/>
+	      </a>
+	    </div>
+	    <div class="bio">
+	      Jonathan E. Magen is a Rails developer working for a
+	      small startup in New Haven. He loves to eat, cook, read
+	      and write code. Jonathan appreciates Ruby for its'
+	      Lisp-like flexibility and Smalltalk-like objectivity.
+	    </div>
+	  </div>
 
+	  <div class="person">
+	    <div class="photo">
+	      <a href="http://www.benjaminoakes.com/">
+		<img alt="benjaminoakes" title="benjaminoakes" src="images/headshots/benjaminoakes.png"/>
+	      </a>
+	    </div>
+	    <div class="bio">
+	      Benjamin Oakes is a guy with a face. He's got hair and
+	      eyeballs and a nose. Also, other things. Benjamin likes
+	      to eat food, often food that is yummy. He likes Ruby
+	      because of how wonderful it feels.
+	    </div>
+	  </div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div id="projects">
+	  <h1>Projects</h1>
+	  <p>
+	    The members of newhaven.rb are quite active in all levels of
+	    the computing community. Some of their projects include:
+	  </p>
+	  <ul>
+	    <li><a href="http://github.com/sandal/prawn">Prawn</a> - One of the most widely-used and highly-configurable PDF-generation libraries.</li>
+	    <li><a href="http://github.com/yonkeltron/NHV-Ruby-site">This site</a> - Help make it better!</li>
+	    <li><a href="http://github.com/yonkeltron/scosugbot">ScosugBot</a> - The official IRC bot of the <a href="http://scosug.org/">Southern Connecticut Open Source User Group</a></li>
+	  </ul>
+	</div>
       </div>
 
       <div id="footer">
-  <h1>Credits</h1>
-  <ul>
-    <li>
-      Header image
-      <ul>
-        <li>Derived from
-        the <a href="http://en.wikipedia.org/wiki/File:Nhskyline_eastshore.jpg">original
-        image</a> produced
-        by <a href="http://commons.wikimedia.org/wiki/User:Versageek">Versageek</a></li>
-        <li>Produced using Inkscape</li>
-        <li>The font is <a href="http://www.theleagueofmoveabletype.com/fonts/5-blackout">Blackout</a> from <a href="http://www.theleagueofmoveabletype.com/">The League of Moveable Type</a></li>
-      </ul>
-    </li>
-    <li>
-      Site
-      <ul>
-        <li>HTML5</li>
-        <li>jQuery</li>
-        <li>The New Haven Ruby Community</li>
-      </ul>
-    </li>
-  </ul>
+	<h1>Credits</h1>
+	<ul>
+	  <li>
+	    Header image
+	    <ul>
+	      <li>Derived from
+		the <a href="http://en.wikipedia.org/wiki/File:Nhskyline_eastshore.jpg">original
+		  image</a> produced
+		by <a href="http://commons.wikimedia.org/wiki/User:Versageek">Versageek</a></li>
+	      <li>Produced using Inkscape</li>
+	      <li>The font is <a href="http://www.theleagueofmoveabletype.com/fonts/5-blackout">Blackout</a> from <a href="http://www.theleagueofmoveabletype.com/">The League of Moveable Type</a></li>
+	    </ul>
+	  </li>
+	  <li>
+	    Site
+	    <ul>
+	      <li>HTML5</li>
+	      <li>jQuery</li>
+	      <li>The New Haven Ruby Community</li>
+	    </ul>
+	  </li>
+	</ul>
+	<p>Sponsorship Pending:</p>
+	<p><a href="http://oreilly.com/"><img src="images/ug_ad_125_viguy.gif" /></a></p>
       </div>
-
-      <a href="http://oreilly.com/"><img src="images/ug_ad_125_viguy.gif" /></a>
-      (Sponsorship pending)
-
     </div>
   </body>
 </html>

@@ -3,10 +3,15 @@ body {
     font-family: Sans-serif;
     color: #210000;
     font-size: 1.3em;
+    padding-bottom: 1.5em;
+}
+
+.clear {
+    clear: both;
 }
 
 #page {
- 
+
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -30,7 +35,7 @@ body {
 a {
     text-decoration: none;
     color: #cc0000;
-    border-bottom: 1px dashed #cc0000;;
+    border-bottom: 1px dashed #cc0000;
 }
 
 a:hover {
@@ -52,4 +57,34 @@ h1:hover {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
+}
+
+#navblock {
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    width: 60%;
+    text-align: center;
+}
+
+#navblock a{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+div.person {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+div.person div.photo a {
+    border: none;
+}
+
+div.person div.photo {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 1em;
 }
