@@ -38,7 +38,7 @@
 	<div id="history">
 	  <h1>History</h1>
 	  <p>
-	    The first incarnation of Ruby New Haven manifested in 2008
+	    The first incarnation of Ruby New Haven manifested in 2005
 	    at a time when appreciation for Ruby was just reaching the
 	    community community at large. Over a period of two years,
 	    the group noticed that the New Haven computing community
@@ -51,33 +51,18 @@
 	<div id="people">
 	  <h1>People</h1>
 
+	  <% people.each do |person| %>
 	  <div class="person">
 	    <div class="photo">
-	      <a href="http://yonkeltron.com">
-		<img alt="yonkeltron" title="I came to party" src="images/headshots/yonkeltron.png"/>
+	      <a href="<%= person['url'] %>">
+		<img alt="<%= person['nick'] %>" title="<%= person['caption'] %>" src="images/headshots/<%= person['image'] %>" />
 	      </a>
 	    </div>
 	    <div class="bio">
-	      Jonathan E. Magen is a Rails developer working for a
-	      small startup in New Haven. He loves to eat, cook, read
-	      and write code. Jonathan appreciates Ruby for its'
-	      Lisp-like flexibility and Smalltalk-like objectivity.
+	      <%= person['bio'] %>
 	    </div>
 	  </div>
-
-	  <div class="person">
-	    <div class="photo">
-	      <a href="http://www.benjaminoakes.com/">
-		<img alt="benjaminoakes" title="benjaminoakes" src="images/headshots/benjaminoakes.png"/>
-	      </a>
-	    </div>
-	    <div class="bio">
-	      Benjamin Oakes is a guy with a face. He's got hair and
-	      eyeballs and a nose. Also, other things. Benjamin likes
-	      to eat food, often food that is yummy. He likes Ruby
-	      because of how wonderful it feels.
-	    </div>
-	  </div>
+	  <% end %>
 	</div>
 
 	<div class="clear"></div>
