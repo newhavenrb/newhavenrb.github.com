@@ -3,11 +3,11 @@
   nick: yonkeltron
   url: http://yonkeltron.com
   caption: I came to party
-  bio: Jonathan E. Magen is a Rails developer working for a small startup in New Haven. He loves to eat, cook, read and write code. Jonathan appreciates Ruby for its\' Lisp-like flexibility and Smalltalk-like objectivity.
+  bio: "Jonathan E. Magen is a Rails developer working for a small startup in New Haven. He loves to eat, cook, read and write code. Jonathan appreciates Ruby for its Lisp-like flexibility and Smalltalk-like objectivity."
   image: yonkeltron.png
 - name: Benjamin Oakes
   nick: benjaminoakes
   url: http://www.benjaminoakes.com
   caption: benjaminoakes
-  bio: Benjamin Oakes is a guy with a face. He\'s got hair and eyeballs and a nose. Also, other things. Benjamin likes to eat food, often food that is yummy. He likes Ruby because of how wonderful it feels.
-  image: benjaminoakes.png
+  bio: "Benjamin Oakes is a Research Assistant at the Yale School of Medicine.  He loves to argue about geeky things like linguistics, psychology, and vim vs emacs.  He loves Ruby because of how wonderful it feels flowing from his fingers and how quickly inspiration turns into implementation."
+  image: benjaminoakes.jpg
