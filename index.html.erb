@@ -11,112 +11,113 @@
       <div id="header"></div>
 
       <div id="navblock">
-	<a href="#history">History</a>
-	<a href="#people">People</a>
-	<a href="#projects">Projects</a>
-	<a href="#footer">Credits</a>
+        <a href="#history">History</a>
+        <a href="#people">People</a>
+        <a href="#projects">Projects</a>
+        <a href="#footer">Credits</a>
       </div>
 
       <div id="content">
 
-	<div id="about">
-	  <p>
-	    We, <span class="highlight">newhaven.rb</span>, are a group of
-	    people living in and around New Haven, CT brought together
-	    by shared interest in
-	    the <a href="http://ruby-lang.org">Ruby Programming
-	      Language</a>. We come from all different professions and
-	    occupations to share our knowledge of Ruby and learn from
-	    one another. If you're interested in joining us to learn
-	    about Ruby or just hang out with fellow enthusiasts, follow
-	    us on
-	    Twitter <a href="http://twitter.com/newhavenruby">@newhavenruby</a>
-	    or join our discussion list to get in touch.
-	  </p>
-	</div>
+        <div id="about">
+          <p>
+            We, <span class="highlight">newhaven.rb</span>, are a group of
+            people living in and around New Haven, CT brought together
+            by shared interest in
+            the <a href="http://ruby-lang.org">Ruby Programming
+              Language</a>. We come from all different professions and
+            occupations to share our knowledge of Ruby and learn from
+            one another. If you're interested in joining us to learn
+            about Ruby or just hang out with fellow enthusiasts, follow
+            us on
+            Twitter <a href="http://twitter.com/newhavenruby">@newhavenruby</a>
+            or join our discussion list to get in touch.
+          </p>
+        </div>
 
-	<div id="history">
-	  <h1>History</h1>
-	  <p>
-	    The first incarnation of Ruby New Haven manifested in 2005
-	    at a time when appreciation for Ruby was just reaching the
-	    community community at large. Over a period of three
-	    years, the group noticed that the New Haven computing
-	    community wasn't getting to love Ruby as fast as they
-	    should have and entered hibernation in 2008. Luckily, an
-	    influx of Ruby fans led to the re-establishment of the
-	    group in summer of 2010.
-	  </p>
-	</div>
+        <div id="history">
+          <h1>History</h1>
+          <p>
+            The first incarnation of Ruby New Haven manifested in 2005
+            at a time when appreciation for Ruby was just reaching the
+            community community at large. Over a period of three
+            years, the group noticed that the New Haven computing
+            community wasn't getting to love Ruby as fast as they
+            should have and entered hibernation in 2008. Luckily, an
+            influx of Ruby fans led to the re-establishment of the
+            group in summer of 2010.
+          </p>
+        </div>
 
-	<div id="people">
-	  <h1>People</h1>
+        <div id="people">
+          <h1>People</h1>
 
-	  <% people.each do |person| %>
-	  <div class="person">
-	    <div class="photo">
-	      <a href="<%= person['url'] %>">
-		<img alt="<%= person['nick'] %>" title="<%= person['caption'] %>" src="images/headshots/<%= person['image'] %>" />
-	      </a>
-	    </div>
-	    <div class="bio">
-	      <%= person['bio'] %>
-	    </div>
-	  </div>
-	  <% end %>
-	</div>
+          <% people.each do |person| %>
+          <div class="person">
+            <div class="photo">
+              <a href="<%= person['url'] %>">
+                <img alt="<%= person['nick'] %>" title="<%= person['caption'] %>" src="images/headshots/<%= person['image'] %>" />
+              </a>
+            </div>
+            <div class="bio">
+              <%= person['bio'] %>
+            </div>
+          </div>
+          <% end %>
+        </div>
 
-	<div class="clear"></div>
+        <div class="clear"></div>
 
-	<div id="projects">
-	  <h1>Projects</h1>
-	  <p>
-	    The members of newhaven.rb are quite active in all levels of
-	    the computing community. Some of their projects include:
-	  </p>
-	  <ul>
-	    <li><a href="http://github.com/sandal/prawn">Prawn</a> -
-	    One of the most widely-used and highly-configurable
-	    PDF-generation libraries.</li>
-	    <li><a href="http://github.com/yonkeltron/NHV-Ruby-site">This
-	    site</a> - Help make it better!</li>
-	    <li><a href="http://github.com/yonkeltron/scosugbot">ScosugBot</a>
-	    - The official IRC bot of
-	    the <a href="http://scosug.org/">Southern Connecticut Open
-	    Source User Group</a></li>
-	  </ul>
-	</div>
+        <div id="projects">
+          <h1>Projects</h1>
+          <p>
+            The members of newhaven.rb are quite active in all levels of
+            the computing community. Some of their projects include:
+          </p>
+          <ul>
+            <li><a href="http://github.com/sandal/prawn">Prawn</a> -
+              One of the most widely-used and highly-configurable
+              PDF-generation libraries.</li>
+            <li><a href="http://github.com/yonkeltron/NHV-Ruby-site">This
+                site</a> - Help make it better!</li>
+            <li><a href="http://github.com/yonkeltron/scosugbot">ScosugBot</a>
+              - The official IRC bot of
+              the <a href="http://scosug.org/">Southern Connecticut Open
+                Source User Group</a></li>
+          </ul>
+        </div>
       </div>
 
       <div id="footer">
-	<h1>Credits</h1>
-	<ul>
-	  <li>
-	    Header image
-	    <ul>
-	      <li>Derived from
-		the <a href="http://en.wikipedia.org/wiki/File:Nhskyline_eastshore.jpg">original
-		image</a> produced
-		by <a href="http://commons.wikimedia.org/wiki/User:Versageek">Versageek</a></li>
-	      <li>Produced using Inkscape</li>
-	      <li>The font
-	      is <a href="http://www.theleagueofmoveabletype.com/fonts/5-blackout">Blackout</a>
-	      from <a href="http://www.theleagueofmoveabletype.com/">The
-	      League of Moveable Type</a></li>
-	    </ul>
-	  </li>
-	  <li>
-	    Site
-	    <ul>
-	      <li>HTML5</li>
-	      <li>jQuery</li>
-	      <li>The New Haven Ruby Community</li>
-	    </ul>
-	  </li>
-	</ul>
-	<p>Sponsorship Pending:</p>
-	<p><a href="http://oreilly.com/"><img src="images/ug_ad_125_viguy.gif" /></a></p>
+        <h1>Credits</h1>
+        <ul>
+          <li>
+            Header image
+            <ul>
+              <li>Derived from
+                the <a href="http://en.wikipedia.org/wiki/File:Nhskyline_eastshore.jpg">original
+                  image</a> produced
+                by <a href="http://commons.wikimedia.org/wiki/User:Versageek">Versageek</a></li>
+              <li>Produced using Inkscape</li>
+              <li>The font
+                is <a href="http://www.theleagueofmoveabletype.com/fonts/5-blackout">Blackout</a>
+                from <a href="http://www.theleagueofmoveabletype.com/">The
+                  League of Moveable Type</a></li>
+            </ul>
+          </li>
+          <li>
+            Site
+            <ul>
+              <li>HTML5</li>
+              <li>jQuery</li>
+              <li>The New Haven Ruby Community</li>
+            </ul>
+          </li>
+        </ul>
+        <p>Sponsorship Pending:</p>
+        <p><a href="http://oreilly.com/"><img src="images/ug_ad_125_viguy.gif" /></a></p>
       </div>
     </div>
+    <!-- Last Updated: <%= Time.now.utc %> -->
   </body>
 </html>

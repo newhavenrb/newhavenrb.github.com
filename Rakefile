@@ -25,13 +25,13 @@ task :build do
   template = ERB.new(template_raw, 0, "%<>")
   markup = template.result(binding)
   puts "Done."
-  
+
   File.open(out_file_name, 'w') do |file|
     file << markup
   end
   puts "Wrote #{markup.length} bytes to file."
 
-
+  puts "Finished in #{Time.now - start} seconds"
 end
 
 task :default => :build
