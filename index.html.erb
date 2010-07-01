@@ -52,18 +52,39 @@
         <div id="people">
           <h1>People</h1>
 
-          <% people.each do |person| %>
-          <div class="person">
-            <div class="photo">
-              <a href="<%= person['url'] %>">
-                <img alt="<%= person['nick'] %>" title="<%= person['caption'] %>" src="images/headshots/<%= person['image'] %>" />
-              </a>
-            </div>
-            <div class="bio">
-              <%= person['bio'] %>
-            </div>
-          </div>
-          <% end %>
+          <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+            new TWTR.Widget({
+            version: 2,
+            type: 'list',
+            rpp: 30,
+            interval: 6000,
+            title: 'newhaven.rb',
+            subject: 'our peeps',
+            width: 'auto',
+            height: 300,
+            theme: {
+            shell: {
+            background: '#cc0000',
+            color: '#eeeeee'
+            },
+            tweets: {
+            background: '#eeeeee',
+            color: '#210000',
+            links: '#cc0000'
+            }
+            },
+            features: {
+            scrollbar: true,
+            loop: false,
+            live: true,
+            hashtags: true,
+            timestamp: true,
+            avatars: true,
+            behavior: 'all'
+            }
+            }).render().setList('newhavenrb', 'community').start();
+          </script>
         </div>
 
         <div class="clear"></div>
