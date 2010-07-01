@@ -7,6 +7,10 @@ body {
   padding:0;
 }
 
+.clear {
+    clear: both;
+}
+
 #page {
   background-color: #eee;
   margin: 0 auto;
@@ -86,4 +90,19 @@ li{
 
 .right{
   float:right;
+}
+
+#navblock {
+  font-size: 32px;
+  margin-bottom: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+#navblock a{
+  margin-left: 1em;
+  margin-right: 1em;
 }
