@@ -9,6 +9,11 @@ Run `rake` in the containing directory. That is all.
 # Notes
 The 'graphics' directory has Inkscape SVGs with concept artworks.
 
+# Discussions
+* What do we want the site to do (information to contain, etc.)?
+* Do we want it to have server-side dynamic content?
+* Etc.
+
 # TODO
 * Make 'Who?' section pretty with jQuery and some cool icons or something
 * We're starting to have a few too many places to find information about the group.  It would be nice to have the website be a place that organizes all of the info into one place:
