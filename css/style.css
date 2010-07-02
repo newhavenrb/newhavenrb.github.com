@@ -123,11 +123,14 @@ li{
   margin-bottom: 20px;
 }
 
-#google-groups-posts li{
-  list-style-type:none;
+#google-groups-posts{
+  font-size: 90%;
+  margin-left: 10px;
 }
 
 #google-groups-posts .post-author{
-  font-size: 60%;
- /* margin-left: 20px;*/
+  font-size: 80%;
+  margin-left: 20px;
+  margin-bottom: 5px;
 }
+

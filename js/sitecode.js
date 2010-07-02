@@ -2,8 +2,8 @@ var nhvsite = {};
 nhvsite.templates = {};
 nhvsite.templates.gg_post = function gg_post() {
     var template;
-    template = '<li><a href="{{link}}" class="post-title">{{title}}</a>';
-    template += ' &larr; Posted by <span class="post-author">{{author}}</span></li>';    
+    template = '<div><a href="{{link}}" class="post-title">{{title}}</a>';
+    template += ' <div class="post-author">{{author}}</div></div>';
     return template
 };
 
