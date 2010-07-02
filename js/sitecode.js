@@ -9,13 +9,12 @@ nhvsite.templates.gg_post = function gg_post() {
 
 $(document).ready( function () {
     $.jGFeed('http://groups.google.com/group/newhavenrb/feed/atom_v1_0_msgs.xml',
-             function(feeds){
-                 if(!feeds){
+             function (feeds) {
+                 if (!feeds) {
                      return false;
                  }
 
                  $.each(feeds.entries, function (index,feed) {
-                     var markup;
                      $("#google-groups-posts").append(Mustache.to_html(nhvsite.templates.gg_post(), feed));
                  });
              }, 6);
