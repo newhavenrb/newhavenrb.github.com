@@ -4,13 +4,14 @@ $(document).ready( function () {
                  if(!feeds){
                      return false;
                  }
+
                  $.each(feeds.entries, function (index,feed) {
-                     var markup = "<li>";
-                     markup += '<a href="' + feed.link + '" class="post-title">' + feed.title + "</a>";
-                     markup += ' &larr; Posted by ';
-                     markup += '<span class="post-author">' + feed.author + "</span>";
-                     markup += "</li>";
-                     $("#google-groups-posts").append(markup);
+                     var markup, template;
+
+                     template = '<li><a href="{{link}}" class="post-title">{{title}}</a>';
+                     template += ' &larr; Posted by <span class="post-author">{{author}}</span></li>';
+
+                     $("#google-groups-posts").append(Mustache.to_html(template, feed))\;
                  });
              }, 6);
 });
