@@ -11,7 +11,7 @@ $(document).ready( function () {
                      template = '<li><a href="{{link}}" class="post-title">{{title}}</a>';
                      template += ' &larr; Posted by <span class="post-author">{{author}}</span></li>';
 
-                     $("#google-groups-posts").append(Mustache.to_html(template, feed))\;
+                     $("#google-groups-posts").append(Mustache.to_html(template, feed));
                  });
              }, 6);
 });
