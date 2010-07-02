@@ -14,31 +14,29 @@ nhvsite.templates.twitter_post = function twitter_post() {
     return template
 };
 
-$(document).ready( function () {
-    // Google Groups
-    $.jGFeed('http://groups.google.com/group/newhavenrb/feed/atom_v1_0_msgs.xml',
+nhvsite.utils = {};
+nhvsite.utils.rss = function rss(url, template, destination, entries) {
+    $.jGFeed(url,
              function (feeds) {
                  if (!feeds) {
                      return false;
                  }
 
                  $.each(feeds.entries, function (index,feed) {
-                     $("#google-groups-posts").append(Mustache.to_html(nhvsite.templates.gg_post(), feed));
+                     destination.append(Mustache.to_html(template, feed));
                  });
              }, 6);
-    
+};
+
+$(document).ready( function () {
+    // Google Groups
+    nhvsite.utils.rss('http://groups.google.com/group/newhavenrb/feed/atom_v1_0_msgs.xml',
+                      nhvsite.templates.gg_post(),
+                      $("#google-groups-posts"),
+                      6);
     // Twitter
-    $.jGFeed('http://twitter.com/statuses/user_timeline/18841573.rss',
-             function(feeds){
-                 console.log(feeds);
-
-                 if(!feeds){
-                     return false;
-                 }
-
-                 $.each(feeds.entries, function (index,feed) {
-                     var markup;
-                     $("#twitter-posts").append(Mustache.to_html(nhvsite.templates.gg_post(), feed));
-                 });
-             }, 6);
+    nhvsite.utils.rss('http://twitter.com/statuses/user_timeline/18841573.rss',
+                      nhvsite.templates.twitter_post(),
+                      $("#twitter-posts"),
+                      6);
 });
