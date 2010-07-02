@@ -106,3 +106,28 @@ li{
   margin-left: 1em;
   margin-right: 1em;
 }
+
+#people{
+  display: inline-block;
+  width: 420px;
+  margin-right: 30px;
+  height: 500px;
+  vertical-align: top;
+}
+
+#google-groups{
+  display: inline-block;
+  width: 430px;
+  height: 500px;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+#google-groups-posts li{
+  list-style-type:none;
+}
+
+#google-groups-posts .post-author{
+  font-size: 60%;
+ /* margin-left: 20px;*/
+}
