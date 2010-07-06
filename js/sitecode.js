@@ -39,4 +39,13 @@ $(document).ready( function () {
                       nhvsite.templates.twitter_post(),
                       $("#twitter-posts"),
                       6);
+    // HA!
+    $(window).konami( function () {
+        var markup = '<div class="konami"><p>RUBY</p>';
+        markup += '<p class="secret"><code>Level.unlock(:bonus => "konami")</code></p>';
+        markup += '</div>'
+        $("#page").fadeOut();
+        $("body").append(markup);
+        setTimeout(function () { $(".konami").fadeIn(); }, 1500);
+    });
 });
