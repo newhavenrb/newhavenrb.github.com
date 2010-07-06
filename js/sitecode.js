@@ -18,4 +18,14 @@ $(document).ready( function () {
                      $("#google-groups-posts").append(Mustache.to_html(nhvsite.templates.gg_post(), feed));
                  });
              }, 6);
+
+    // HA!
+    $(window).konami( function () {
+        var markup = '<div class="konami"><p>RUBY</p>';
+        markup += '<p class="secret"><code>Level.unlock(:bonus => "konami")</code></p>';
+        markup += '</div>'
+        $("#page").fadeOut();
+        $("body").append(markup);
+        setTimeout(function () { $(".konami").fadeIn(); }, 1500);
+    });
 });
