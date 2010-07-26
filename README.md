@@ -19,12 +19,11 @@ The 'graphics' directory has Inkscape SVGs with concept artworks.
 * Make 'Who?' section pretty with jQuery and some cool icons or
   something
 
+  * Twitter API URL (requires auth):  http://api.twitter.com/1/newhavenrb/community/members.json
+
 * We're starting to have a few too many places to find information
   about the group.  It would be nice to have the website be a place
   that organizes all of the info into one place:
-
-    * Add Google Group integration to show our discussions (there is
-      an RSS feed)
 
     * If we decide to have one, add something to show our iCal feed
 
