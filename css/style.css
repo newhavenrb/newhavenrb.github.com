@@ -7,6 +7,10 @@ body {
   padding:0;
 }
 
+a img {
+  border: 0;
+}
+
 .clear {
     clear: both;
 }
