@@ -1,0 +1,4 @@
+TODO Actually show the @newhavenrb tweets bigger on the page.  Possible via jQuery/JSON:
+
+        jQuery.getJSON('http://api.twitter.com/1/statuses/user_timeline.json?callback=?&screen_name=newhavenrb', function(d) {console.log(d[0].text);});
+
