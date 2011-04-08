@@ -102,6 +102,11 @@ li{
   float:right;
 }
 
+.more {
+  font-size: 70%;
+  text-align: right;
+}
+
 #navblock {
   font-size: 32px;
   margin-bottom: 1em;
