@@ -8,7 +8,7 @@ nhvsite.templates.gg_post = function gg_post() {
 };
 
 nhvsite.templates.tweet = function tweet() {
-  return '<div class="event">{{title}}<div class="pubdate">{{publishedDate}}</div></div>';
+  return '<div class="event">{{title}}<div class="pubdate"><a href="{{link}}">{{publishedDate}}</a></div></div>';
 };
 
 $(document).ready( function () {
