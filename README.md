@@ -1,6 +1,6 @@
 # newhavenrb.org
 
-This is the [website of NewHaven.rb](http://newhavenrb.org/), a Ruby users group in New Haven.  Contributions are welcome!  See "contributing" (below) for details.
+This is the [website of NewHaven.rb](http://newhavenrb.org/), a Ruby users group in New Haven, CT.  Contributions are welcome!  See "contributing" (below) for details.
 
 Want to show up on http://newhavenrb.org/ as a member?  Get in touch with us and we'll put you on our [Twitter list](http://twitter.com/newhavenrb/community/members).
 
