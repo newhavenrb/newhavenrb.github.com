@@ -1,45 +1,24 @@
-# Intro
+# newhavenrb.org
 
-This is the project for the upcoming website of the New Haven
-Rubyists.
+This is the [website of NewHaven.rb](http://newhavenrb.org/), a Ruby users group in New Haven, CT.  Contributions are welcome!  See "contributing" (below) for details.
 
-## To build site
-Run `rake` in the containing directory. That is all.
+Want to show up on http://newhavenrb.org/ as a member?  Get in touch with us and we'll put you on our [Twitter list](http://twitter.com/newhavenrb/community/members).
 
-# Notes
-The 'graphics' directory has Inkscape SVGs with concept artworks.
+# To Do
 
-# Discussions
-* What do we want the site to do (information to contain, etc.)?
-* Do we want it to have server-side dynamic content?
-* Etc.
-
-# TODO
-
-* Make 'Who?' section pretty with jQuery and some cool icons or
-  something
-
+* Add Meetup events
+* Add projects from the GitHub organization
+* Make 'Who?' section pretty with jQuery and some cool icons or something
   * Twitter API URL (requires auth):  http://api.twitter.com/1/newhavenrb/community/members.json
+  * The GitHub organization is another option
+* Other things to think about: a wiki, list of presentations, maybe a rotating member box (featuring a different member on each page refresh), maybe a job board...  lots of possibilities.  :)
 
-* We're starting to have a few too many places to find information
-  about the group.  It would be nice to have the website be a place
-  that organizes all of the info into one place:
+# Contributing
 
-    * If we decide to have one, add something to show our iCal feed
-
-* Other things to think about: a wiki, list of presentations, maybe a
-  rotating member box (featuring a different member on each page
-  refresh), maybe a job board...  lots of possibilities.  :)
-
-# How to contribute
-1. Fork this project on [GitHub](http://github.com/yonkeltron/NHV-Ruby-site)
+1. Fork this project on [GitHub](http://github.com/newhavenrb/newhavenrb.github.com)
 2. Make your changes.
 3. Add yourself to the AUTHORS file.
 4. Commit and issue a pull request
 5. Profit.
 
-# How to add your info
-
-Get in touch with us and we'll put you on our [Twitter
-list](http://twitter.com/newhavenrb). Then, you'll automagically show
-up. Cool, no?
+If you're a frequent contributor, we can give you direct write access.  Please send a message to @newhavenrb on GitHub or Twitter.

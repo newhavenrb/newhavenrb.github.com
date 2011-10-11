@@ -90,12 +90,21 @@ h1 {
   border-bottom: 2px solid;
 }
 
+.pubdate {
+  font-size: 70%;
+}
+
 li{
   margin-bottom: 5px;
 }
 
 .right{
   float:right;
+}
+
+.more {
+  font-size: 70%;
+  text-align: right;
 }
 
 #navblock {
