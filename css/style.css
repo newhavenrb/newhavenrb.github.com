@@ -35,7 +35,6 @@ a img {
 }
 
 #page #header {
-  background: transparent url('../images/nh_skyline.png') no-repeat 0px 10px;
   width: 960px;
   height: 327px;
   color: #eee;
@@ -50,13 +49,11 @@ a img {
 a {
   text-decoration: none;
   color: #cc0000;
-  border-bottom: 1px dashed #cc0000;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: #cc0000;
-  border-bottom: 2px solid #cc0000;
 }
 
 h1 {
@@ -165,4 +162,15 @@ li{
     font-size: 0.5em;
     font-family: monospace;
     padding-top: 0.5em;
+}
+
+.logo {
+  background: #fff;
+  border: 1px solid #220101;;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.description {
+  padding-left: 20px;
 }
