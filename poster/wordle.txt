@@ -1,0 +1,41 @@
+Hedgeye Risk Management:10
+SeeClickFix:10
+Continuity Control:10
+newhaven.rb:25
+New Haven, CT:17
+pubnights:8
+hackfests:7
+Computer Science:4
+Ruby:14
+Rails:15
+Sinatra:9
+JavaScript:11
+Coffeescript:5
+CSS:12
+HTML5:12
+node.js:9
+jQuery:10
+Polyglot:8
+Lisp:9
+Startups:9
+SQL:6
+NoSQL:8
+*nix:11
+git:12
+github:8
+Twitter:6
+Meetups:9
+RubyConf:3
+RailsConf:3
+OS X:6
+Linux:7
+Ubuntu:6
+rspec:6
+vim:5
+emacs:5
+Cucumber:4
+book club:7
+newbies:6
+collaboration:9
+jobs:8
+lightning talks:7
