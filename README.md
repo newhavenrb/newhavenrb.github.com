@@ -17,8 +17,9 @@ Want to show up on http://newhavenrb.org/ as a member?  Get in touch with us and
 
 1. Fork this project on [GitHub](http://github.com/newhavenrb/newhavenrb.github.com)
 2. Make your changes.
-3. Add yourself to the AUTHORS file.
-4. Commit and issue a pull request
-5. Profit.
+3. Test with `$ python -m SimpleHTTPServer`
+4. Add yourself to the AUTHORS file.
+5. Commit and issue a pull request
+6. Profit.
 
 If you're a frequent contributor, we can give you direct write access.  Please send a message to @newhavenrb on GitHub or Twitter.
