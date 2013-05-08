@@ -1,165 +1,130 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>newhaven.rb</title>
-    <meta charset="utf-8" />
-    <link href="http://fonts.googleapis.com/css?family=Cantarell:regular,bold" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" media="all" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="page">
-      <div id="header">
-        <a href="https://github.com/newhavenrb/newhavenrb.github.com"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-        <a href="index.html"><img alt="New Haven Skyline" src="images/nh_skyline.png" /></a>
-      </div>
+---
+layout: default
+title: newhaven.rb
+---
+<div>
+  Home
+  /
+  <a href="http://groups.google.com/group/newhavenrb">Mailing List</a>
+  /
+  <a href="http://www.meetup.com/newhavenrb">Meetup</a>
+  /
+  <a href="http://www.twitter.com/newhavenrb">Twitter</a>
+  /
+  <a href="http://www.github.com/newhavenrb">GitHub</a>
+  /
+  <a href="https://github.com/newhavenrb/conferences/wiki">Conference Wiki</a>
+  /
+  <a href="irc://irc.freenode.net/newhavenrb">IRC</a>
+  /
+  <a href="jobs.html">Jobs</a>
+</div>
 
-      <div id="content">
-        <div>
-          Home
-          /
-          <a href="http://groups.google.com/group/newhavenrb">Mailing List</a>
-          /
-          <a href="http://www.meetup.com/newhavenrb">Meetup</a>
-          /
-          <a href="http://www.twitter.com/newhavenrb">Twitter</a>
-          /
-          <a href="http://www.github.com/newhavenrb">GitHub</a>
-          /
-          <a href="https://github.com/newhavenrb/conferences/wiki">Conference Wiki</a>
-          /
-          <a href="irc://irc.freenode.net/newhavenrb">IRC</a>
-          /
-          <a href="jobs.html">Jobs</a>
-        </div>
+<div id="about">
+  <p>
+    We, <span class="highlight">newhaven.rb</span>, are a group of
+    people living in and around New Haven, CT brought together
+    by shared interest in
+    the <a href="http://ruby-lang.org">Ruby Programming
+      Language</a>. We come from all different professions and
+    occupations to share our knowledge of Ruby and learn from
+    one another. If you're interested in joining us to learn
+    about Ruby or just hang out with fellow enthusiasts, follow
+    us on
+    Twitter <a href="http://twitter.com/newhavenrb">@newhavenrb</a>
+    or <a href="http://groups.google.com/group/newhavenrb">join our discussion list</a> to get in touch.
+  </p>
 
-        <div id="about">
-          <p>
-            We, <span class="highlight">newhaven.rb</span>, are a group of
-            people living in and around New Haven, CT brought together
-            by shared interest in
-            the <a href="http://ruby-lang.org">Ruby Programming
-              Language</a>. We come from all different professions and
-            occupations to share our knowledge of Ruby and learn from
-            one another. If you're interested in joining us to learn
-            about Ruby or just hang out with fellow enthusiasts, follow
-            us on
-            Twitter <a href="http://twitter.com/newhavenrb">@newhavenrb</a>
-            or <a href="http://groups.google.com/group/newhavenrb">join our discussion list</a> to get in touch.
-          </p>
+  <p>
+    We have also started organizing most of our meetups on Meetup.  To see more about what we're doing, please check out <a href="http://www.meetup.com/newhavenrb/">our account</a>.
+  </p>
+</div>
 
-          <p>
-            We have also started organizing most of our meetups on Meetup.  To see more about what we're doing, please check out <a href="http://www.meetup.com/newhavenrb/">our account</a>.
-          </p>
-        </div>
-        
-        <h2>IRC</h2>
-        <iframe src="http://webchat.freenode.net?channels=newhavenrb&uio=d4" width="647" height="400"></iframe>
+<h2>IRC</h2>
+<iframe src="http://webchat.freenode.net?channels=newhavenrb&uio=d4" width="647" height="400"></iframe>
 
-        <h2>Updates</h2>
+<h2>Updates</h2>
 
-        <div id='events'>
-        </div>
+<div id='events'>
+</div>
 
-        <p class="more"><a href="http://twitter.com/newhavenrb">More updates...</a></p>
+<p class="more"><a href="http://twitter.com/newhavenrb">More updates...</a></p>
 
-        <div id="people">
-          <h1>People</h1>
-          <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-          <script>
-            new TWTR.Widget({
-            version: 2,
-            type: 'list',
-            rpp: 30,
-            interval: 6000,
-            title: 'newhaven.rb',
-            subject: 'our peeps',
-            width: 'auto',
-            height: 300,
-            theme: {
-            shell: {
-            background: '#e0e0e0',
-            color: '#450000'
-            },
-            tweets: {
-            background: '#f7f7f7',
-            color: '#210000',
-            links: '#cc0000'
-            }
-            },
-            features: {
-            scrollbar: true,
-            loop: false,
-            live: true,
-            hashtags: true,
-            timestamp: true,
-            avatars: true,
-            behavior: 'all'
-            }
-            }).render().setList('newhavenrb', 'community').start();
-          </script>
+<div id="people">
+  <h1>People</h1>
+  <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+  <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'list',
+      rpp: 30,
+      interval: 6000,
+      title: 'newhaven.rb',
+      subject: 'our peeps',
+      width: 'auto',
+      height: 300,
+      theme: {
+        shell: {
+          background: '#e0e0e0',
+          color: '#450000'
+        },
+        tweets: {
+          background: '#f7f7f7',
+          color: '#210000',
+          links: '#cc0000'
+        }
+      },
+      features: {
+        scrollbar: true,
+        loop: false,
+        live: true,
+        hashtags: true,
+        timestamp: true,
+        avatars: true,
+        behavior: 'all'
+      }
+    }).render().setList('newhavenrb', 'community').start();
+  </script>
 
-          <p class="more"><a href="http://twitter.com/newhavenrb/community">More conversation...</a></p>
-        </div>
+  <p class="more"><a href="http://twitter.com/newhavenrb/community">More conversation...</a></p>
+</div>
 
-        <div id="google-groups">
-          <h1>Google Group</h1>
-          <div id="google-groups-posts"></div>
+<div id="google-groups">
+  <h1>Google Group</h1>
+  <div id="google-groups-posts"></div>
 
-          <p class="more"><a href="http://groups.google.com/group/newhavenrb">More posts...</a></p>
-        </div>
+  <p class="more"><a href="http://groups.google.com/group/newhavenrb">More posts...</a></p>
+</div>
 
-        <div id="history">
-          <h1>History</h1>
-          <p>
-            The first incarnation of Ruby New Haven manifested in 2005
-            at a time when appreciation for Ruby was just reaching the
-            community at large. Over a period of three years, the
-            group noticed that the New Haven computing community
-            wasn't getting to love Ruby as fast as they should have
-            and entered hibernation in 2008. Luckily, an influx of
-            Ruby fans led to the re-establishment of the group in
-            summer of 2010 with the future looking brighter than ever!
-          </p>
-        </div>
+<div id="history">
+  <h1>History</h1>
+  <p>
+    The first incarnation of Ruby New Haven manifested in 2005
+    at a time when appreciation for Ruby was just reaching the
+    community at large. Over a period of three years, the
+    group noticed that the New Haven computing community
+    wasn't getting to love Ruby as fast as they should have
+    and entered hibernation in 2008. Luckily, an influx of
+    Ruby fans led to the re-establishment of the group in
+    summer of 2010 with the future looking brighter than ever!
+  </p>
+</div>
 
-        <div id="projects">
-          <h1>Projects</h1>
-          <ul>
-            <li><a href="http://github.com/sandal/prawn">Prawn</a> -
-              One of the most widely-used and highly-configurable
-              PDF generation libraries.</li>
-            <li><a href="http://github.com/newhavenrb/newhavenrb.github.com">This
-                site</a> - Help make it better!</li>
-            <li><a href="http://github.com/yonkeltron/scosugbot">ScosugBot</a>
-              - The official IRC bot of
-              the <a href="http://scosug.org/">Southern Connecticut Open
-                Source User Group</a></li>
-            <li>
-              <a href='http://github.com/jordanbyron/mission_of_mercy'>Mission of Mercy</a>
-              - Patient management software for free dental clinics
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-25562138-2']);
-      _gaq.push(['_trackPageview']);
-    
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-
-    <script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
-    <script src="js/jquery.jgfeed-min.js" type="text/javascript"></script>
-    <script src="js/mustache.js"></script>
-    <script src="js/konami.js"></script>
-    <script src="js/jquery.linkify-1.0-min.js"></script>
-    <script src="js/sitecode.js" type="text/javascript"></script>
-  </body>
-</html>
+<div id="projects">
+  <h1>Projects</h1>
+  <ul>
+    <li><a href="http://github.com/sandal/prawn">Prawn</a> -
+      One of the most widely-used and highly-configurable
+      PDF generation libraries.</li>
+    <li><a href="http://github.com/newhavenrb/newhavenrb.github.com">This
+        site</a> - Help make it better!</li>
+    <li><a href="http://github.com/yonkeltron/scosugbot">ScosugBot</a>
+      - The official IRC bot of
+      the <a href="http://scosug.org/">Southern Connecticut Open
+        Source User Group</a></li>
+    <li>
+      <a href='http://github.com/jordanbyron/mission_of_mercy'>Mission of Mercy</a>
+      - Patient management software for free dental clinics
+    </li>
+  </ul>
+</div>
