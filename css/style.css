@@ -1,10 +1,13 @@
 body {
   background-color: #700000;
   font-family: 'Cantarell', "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
-  color: #210000;
-  font-size: 1.3em;
-  margin:0 0 20px;
-  padding:0;
+  font-size: 1.2em;
+}
+
+.navbar-inner { 
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 
 a img {
@@ -15,11 +18,13 @@ a img {
     clear: both;
 }
 
+.container-narrow {
+  margin: 0 auto;
+  max-width: 970px;
+}
+
 #page {
   background-color: #eee;
-  margin: 0 auto;
-  width: 960px;
-  min-height: 20em;
   text-align: justify;
   
   -moz-border-radius-bottomleft: 10px;
@@ -35,15 +40,7 @@ a img {
 }
 
 #page #header {
-  width: 960px;
-  height: 327px;
-  color: #eee;
-  text-align: right;
-}
-
-#page #content {
-  margin: 0 auto;
-  padding: 20px;
+  text-align: center;
 }
 
 a {
@@ -91,10 +88,6 @@ h1 {
   font-size: 70%;
 }
 
-li{
-  margin-bottom: 5px;
-}
-
 .right{
   float:right;
 }
@@ -119,17 +112,17 @@ li{
   margin-right: 1em;
 }
 
-#people{
+#people {
   display: inline-block;
-  width: 420px;
+  width: 365px;
   margin-right: 30px;
   height: 500px;
   vertical-align: top;
 }
 
-#google-groups{
+#google-groups {
   display: inline-block;
-  width: 430px;
+  width: 365px;
   height: 500px;
   vertical-align: top;
   margin-bottom: 20px;
