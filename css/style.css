@@ -1,9 +1,73 @@
-// body background-color: #700000
-// content background-color: #eee
-// a color: #cc0000
-// h1 color: #450000
+/* body background-color: #700000 
+   content background-color: #eee
+   a color: #cc0000
+   h1 color: #450000 */
 
-// konami
+/* Custom Bootstrap Settings
+ * @red                        : #A62424;
+ * @sansFontFamily             : "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+ * @baseFontSize               : 18px;
+ * @navbarHeight               : 92px; // Depends on height of logo and height of navbar images
+ *
+ * @navbarBackgroundHighlight  : @red;
+ * @navbarBackground           : @red;
+ * @navbarBorder               : none;
+ *
+ * @navbarText                 : @white;
+ * @navbarLinkColor            : @white;
+ * @navbarLinkColorHover       : @white;
+ * @navbarLinkColorActive      : @navbarLinkColorHover;
+ * @navbarLinkBackgroundHover  : lighten(@navbarBackground, 15%);
+ * @navbarLinkBackgroundActive : lighten(@navbarBackground, 15%);
+ */
+
+/* Boostrap Overrides */
+.navbar-static-top { margin-bottom: 60px; }
+.navbar-inner { border: none; }
+.navbar .nav { float: right; }
+.navbar .nav>li>a { min-height: 29px; }
+.container { text-align: justify; }
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar .brand {
+  height: 96px;
+  padding: 0 20px 0 20px;
+}
+
+.accordion-group { border: 0 none; }
+.accordion-inner { padding: 9px 0; }
+.accordion-heading .accordion-toggle { padding: 8px 0; }
+
+.btn {
+  background-image: none !important;
+  filter: none;
+}
+
+/* site styles */
+.site-footer {
+  margin-top: 50px;
+  background: #A62424;
+  padding-bottom: 20px;
+}
+
+.meetup-map { height: 150px; }
+.list-icon {
+	padding-left: 31px !important;
+	background: url('/images/glyphish/list-gray.png') no-repeat left center;
+}
+.calendar2x-icon {
+	padding-left: 62px !important;
+	line-height: 56px;
+	background: url('/images/glyphish/calendar@2x-gray.png') no-repeat left top;
+}
+.meetup-description { margin-top: 12.5px; }
+
+/* konami */
 .konami {
     color: #fff;
     font-size: 4em;
