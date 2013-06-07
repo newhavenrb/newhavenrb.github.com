@@ -1,109 +1,106 @@
 ---
 layout: default
 title: newhaven.rb
-active_nav: home
 ---
-<div id="about">
-  <p>
-    We, <span class="highlight">newhaven.rb</span>, are a group of
-    people living in and around New Haven, CT brought together
-    by shared interest in
-    the <a href="http://ruby-lang.org">Ruby Programming
-      Language</a>. We come from all different professions and
-    occupations to share our knowledge of Ruby and learn from
-    one another. If you're interested in joining us to learn
-    about Ruby or just hang out with fellow enthusiasts, follow
-    us on
-    Twitter <a href="http://twitter.com/newhavenrb">@newhavenrb</a>
-    or <a href="http://groups.google.com/group/newhavenrb">join our discussion list</a> to get in touch.
-  </p>
+<div class="row">
 
-  <p>
-    We have also started organizing most of our meetups on Meetup.  To see more about what we're doing, please check out <a href="http://www.meetup.com/newhavenrb/">our account</a>.
-  </p>
-</div>
+	<div class="span6">
+    <h2><em>Welcome to NewHaven.rb</em></h2>
+		<p>
+			We, <span class="highlight">newhaven.rb</span>, are a group
+			of people living in and around New Haven, CT brought together
+			by shared interest in the <a href="http://ruby-lang.org">Ruby
+				Programming Language</a>. We come from all different professions
+			and occupations to share our knowledge of Ruby and learn from one
+			another. If you're interested in joining us to learn about Ruby
+			or just hang out with fellow enthusiasts, follow us on Twitter
+			<a href="http://twitter.com/newhavenrb">@newhavenrb</a> or <a
+				href="http://groups.google.com/group/newhavenrb">join our discussion
+				list</a> to get in touch.
+		</p>
 
-<h2>IRC</h2>
-<iframe src="http://webchat.freenode.net?channels=newhavenrb&uio=d4" width="647" height="400"></iframe>
+		<p>
+			We have also started organizing most of our meetups on Meetup.  To see more about what we're doing, please check out <a href="http://www.meetup.com/newhavenrb/">our account</a>.
+		</p>
+	</div>
 
-<h2>Updates</h2>
+	<div class="span6">
+    <div class="well">
+      <h2 class="calendar2x-icon">Upcoming Meetups</h2>
+      <div class="accordion" id="meetup-accordion">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#meetup-accordion" href="#collapseOne">
+              <strong class="list-icon">Social Night: Wednesday, May 15, 2013 6:00 PM</strong>
+            </a>
+          </div>
 
-<div id='events'>
-</div>
+          <div id="collapseOne" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              <div class="row">
+                <div class="span2">
+                  <address>
+                    Christy's on Orange<br/>
+                    261 Orange Street<br/>
+                    New Haven, CT
+                  </address>
+                  <a class="btn btn-danger" href="http://www.meetup.com/newhavenrb/events/qlwkpfyrhbtb/">RSVP &raquo;</a>
+                </div>
 
-<p class="more"><a href="http://twitter.com/newhavenrb">More updates...</a></p>
+                <div data-address="261 Orange Street, New Haven, CT" class="meetup-map"></div>
+              </div>
+              <p class="meetup-description">Get some drinks &amp; dinner in New Haven, and talk about your start-up, your open source project, or whatever. It's easy.</p>
+            </div>
+          </div>
+        </div>
 
-<div id="people">
-  <h1>People</h1>
-  <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-  <script>
-    new TWTR.Widget({
-      version: 2,
-      type: 'list',
-      rpp: 30,
-      interval: 6000,
-      title: 'newhaven.rb',
-      subject: 'our peeps',
-      width: 'auto',
-      height: 300,
-      theme: {
-        shell: {
-          background: '#e0e0e0',
-          color: '#450000'
-        },
-        tweets: {
-          background: '#f7f7f7',
-          color: '#210000',
-          links: '#cc0000'
-        }
-      },
-      features: {
-        scrollbar: true,
-        loop: false,
-        live: true,
-        hashtags: true,
-        timestamp: true,
-        avatars: true,
-        behavior: 'all'
-      }
-    }).render().setList('newhavenrb', 'community').start();
-  </script>
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#meetup-accordion" href="#collapseTwo">
+              <strong class="list-icon">Hack Night: Thursday, June 6, 2013 6:00 PM</strong>
+            </a>
+          </div>
+          <div id="collapseTwo" class="accordion-body collapse">
+            <div class="accordion-inner">
+              <div class="row">
+                <div class="span2">
+                  <address>
+                    See Click Fix Offices<br/>
+                    746 Chapel Street<br/>
+                    Suite 207<br/>
+                    New Haven, CT
+                  </address>
+                  <a class="btn btn-danger" href="http://www.meetup.com/newhavenrb/events/qtwkpfyrjbjb/">RSVP &raquo;</a>
+                </div>
+                <div data-address="746 Chapel Street, New Haven, CT" class="meetup-map"></div>
+              </div>
+              <p class="meetup-description">Join us for our regular hack night.</p>
+            </div>
+          </div>
+        </div>
 
-  <p class="more"><a href="http://twitter.com/newhavenrb/community">More conversation...</a></p>
-</div>
-
-<div id="google-groups">
-  <h1>Google Group</h1>
-  <div id="google-groups-posts"></div>
-
-  <p class="more"><a href="http://groups.google.com/group/newhavenrb">More posts...</a></p>
-</div>
-
-<div id="history">
-  <h1>History</h1>
-  <p>
-    The first incarnation of Ruby New Haven manifested in 2005
-    at a time when appreciation for Ruby was just reaching the
-    community at large. Over a period of three years, the
-    group noticed that the New Haven computing community
-    wasn't getting to love Ruby as fast as they should have
-    and entered hibernation in 2008. Luckily, an influx of
-    Ruby fans led to the re-establishment of the group in
-    summer of 2010 with the future looking brighter than ever!
-  </p>
-</div>
-
-<div id="projects">
-  <h1>Projects</h1>
-  <ul>
-    <li><a href="http://github.com/sandal/prawn">Prawn</a> -
-      One of the most widely-used and highly-configurable
-      PDF generation libraries.</li>
-    <li><a href="http://github.com/newhavenrb/newhavenrb.github.com">This
-        site</a> - Help make it better!</li>
-    <li>
-      <a href='http://github.com/jordanbyron/mission_of_mercy'>Mission of Mercy</a>
-      - Patient management software for free dental clinics
-    </li>
-  </ul>
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#meetup-accordion" href="#collapseThree">
+              <strong class="list-icon">More events posted soon...</strong>
+            </a>
+          </div>
+          <div id="collapseThree" class="accordion-body collapse">
+            <div class="accordion-inner">
+              <div class="row">
+                <div class="span2">
+                  <address>
+                    Various locations<br/>
+                    New Haven, CT<br/>
+                  </address>
+                </div>
+                <div data-address="New Haven, CT" class="meetup-map"></div>
+              </div>
+              <p class="meetup-description">Hack Nights, Social Nights, Presentations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
 </div>
