@@ -1,144 +1,73 @@
-body {
-  background-color: #700000;
-  font-family: 'Cantarell', "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
-  font-size: 1.2em;
+/* body background-color: #700000 
+   content background-color: #eee
+   a color: #cc0000
+   h1 color: #450000 */
+
+/* Custom Bootstrap Settings
+ * @red                        : #A62424;
+ * @sansFontFamily             : "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+ * @baseFontSize               : 18px;
+ * @navbarHeight               : 92px; // Depends on height of logo and height of navbar images
+ *
+ * @navbarBackgroundHighlight  : @red;
+ * @navbarBackground           : @red;
+ * @navbarBorder               : none;
+ *
+ * @navbarText                 : @white;
+ * @navbarLinkColor            : @white;
+ * @navbarLinkColorHover       : @white;
+ * @navbarLinkColorActive      : @navbarLinkColorHover;
+ * @navbarLinkBackgroundHover  : lighten(@navbarBackground, 15%);
+ * @navbarLinkBackgroundActive : lighten(@navbarBackground, 15%);
+ */
+
+/* Boostrap Overrides */
+.navbar-static-top { margin-bottom: 60px; }
+.navbar-inner { border: none; }
+.navbar .nav { float: right; }
+.navbar .nav>li>a { min-height: 29px; }
+.container { text-align: justify; }
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
-.navbar-inner { 
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+.navbar .brand {
+  height: 96px;
+  padding: 0 20px 0 20px;
 }
 
-a img {
-  border: 0;
+.accordion-group { border: 0 none; }
+.accordion-inner { padding: 9px 0; }
+.accordion-heading .accordion-toggle { padding: 8px 0; }
+
+.btn {
+  background-image: none !important;
+  filter: none;
 }
 
-.clear {
-    clear: both;
+/* site styles */
+.site-footer {
+  margin-top: 50px;
+  background: #A62424;
+  padding-bottom: 20px;
 }
 
-.container-narrow {
-  margin: 0 auto;
-  max-width: 970px;
+.meetup-map { height: 150px; }
+.list-icon {
+	padding-left: 31px !important;
+	background: url('/images/glyphish/list-gray.png') no-repeat left center;
 }
-
-#page {
-  background-color: #eee;
-  text-align: justify;
-  
-  -moz-border-radius-bottomleft: 10px;
-  -moz-border-radius-bottomright: 10px;
-  -webkit-border-bottom-left-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  
-  box-shadow: 0px 0px 20px #000;
-  -moz-box-shadow: 0px 0px 20px #000;
-  -webkit-box-shadow: 0px 0px 20px #000;
+.calendar2x-icon {
+	padding-left: 62px !important;
+	line-height: 56px;
+	background: url('/images/glyphish/calendar@2x-gray.png') no-repeat left top;
 }
+.meetup-description { margin-top: 12.5px; }
 
-#page #header {
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-  color: #cc0000;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #cc0000;
-}
-
-h1 {
-  color: #450000;
-  font-variant: small-caps;
-}
-
-.event{
-  margin-top: 5px;
-  padding-top: 5px;
-  border-top: 1px solid silver;
-}
-
-.last{
-  padding-bottom: 5px;
-  border-bottom: 1px solid silver;
-}
-
-.event .date{
-  font-weight:bold;
-  font-variant: small-caps;
-  display: inline-block;
-  width: 275px;
-}
-
-.event a{
-  border-bottom: none;
-}
-
-.event a:hover{
-  border-bottom: 2px solid;
-}
-
-.pubdate {
-  font-size: 70%;
-}
-
-.right{
-  float:right;
-}
-
-.more {
-  font-size: 70%;
-  text-align: right;
-}
-
-#navblock {
-  font-size: 32px;
-  margin-bottom: 1em;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 1em;
-  width: 100%;
-  text-align: center;
-}
-
-#navblock a{
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-#people {
-  display: inline-block;
-  width: 365px;
-  margin-right: 30px;
-  height: 500px;
-  vertical-align: top;
-}
-
-#google-groups {
-  display: inline-block;
-  width: 365px;
-  height: 500px;
-  vertical-align: top;
-  margin-bottom: 20px;
-}
-
-#google-groups-posts{
-  font-size: 90%;
-  margin-left: 10px;
-}
-
-#google-groups-posts .post-author{
-  font-size: 80%;
-  margin-left: 20px;
-  margin-bottom: 5px;
-}
-
+/* konami */
 .konami {
     color: #fff;
     font-size: 4em;
@@ -155,15 +84,4 @@ h1 {
     font-size: 0.5em;
     font-family: monospace;
     padding-top: 0.5em;
-}
-
-.logo {
-  background: #fff;
-  border: 1px solid #220101;;
-  padding: 5px 10px;
-  text-align: center;
-}
-
-.description {
-  padding-left: 20px;
 }
