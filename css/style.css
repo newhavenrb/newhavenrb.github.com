@@ -24,7 +24,7 @@
 /* Boostrap Overrides */
 .navbar-static-top { margin-bottom: 60px; }
 .navbar-inner { border: none; }
-.navbar .nav { float: right; }
+.navbar .nav { float: right; margin-right: 100px; }
 .navbar .nav>li>a { min-height: 29px; }
 .container { text-align: justify; }
 
