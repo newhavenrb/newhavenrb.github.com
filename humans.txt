@@ -1,0 +1,38 @@
+/* TEAM */
+Contributor: Jonathan E. Magen
+Site:        http://yonkeltron.com
+
+Contributor: Jordan Byron
+Site:        http://jordanbyron.com/
+
+Contributor: Benjamin Oakes
+Site:        http://benjaminoakes.com
+
+Contributor: Joel Nimety
+Site:        https://github.com/jnimety
+
+Contributor: Zach Morek
+Site:        https://zachbeta.com
+
+Contributor: John Hirbour
+Site:        https://github.com/jhirbour
+
+Contributor: Devin Weaver (@sukima)
+Site:        http://tritarget.org/
+Twitter:     @sukima
+Location:    New Haven, CT
+
+Contributor: Dan Bernier
+Site:        http://invisibleblocks.com
+Twitter:     @danbernier
+              
+
+/* THANKS */
+Thanks to the many companies who have helped host or contribute to make this
+group thrive.
+
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Twitter Bootstrap
+Software: Jekyll, Github
