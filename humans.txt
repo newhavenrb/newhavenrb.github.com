@@ -21,6 +21,10 @@ Contributor: Devin Weaver (@sukima)
 Site:        http://tritarget.org/
 Twitter:     @sukima
 Location:    New Haven, CT
+
+Contributor: Dan Bernier
+Site:        http://invisibleblocks.com
+Twitter:     @danbernier
               
 
 /* THANKS */
